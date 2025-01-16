@@ -1,15 +1,20 @@
-import Contact from "./Contact"
+import Contact from "./components/Contact";
+import Header from "./components/Header";
 
 function App() {
-    return (
-        <div className="contacts">
-            <Contact />
-            <Contact />
-            <Contact />
-            <Contact />
-        </div>
-    )
+  return (
+    <div>
+      <div className="header">
+        <Header />
+      </div>
+      <div className="contacts">
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+      </div>
+    </div>
+  );
 }
 
-
-export default App
+export default App;
