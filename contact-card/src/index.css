@@ -1,6 +1,7 @@
 header {
   height: 90px;
-  background-color: #adc178;
+  background-color: #65a7a0;
+  border-radius: 5px;
 }
 
 nav {
@@ -17,6 +18,10 @@ h1 {
   text-align: center;
 }
 
+body {
+  background-color: rgb(231, 215, 196);
+}
+
 .contacts {
   display: flex;
   justify-content: center;
@@ -24,6 +29,7 @@ h1 {
 }
 
 .contact-card {
+  margin-top: 5px;
   flex-basis: 225px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -35,8 +41,8 @@ h1 {
 }
 
 .contact-card > img {
-  width: 100%;
-  height: auto;
+  width: 15em;
+  height: 15em;
   align-self: center;
   border-radius: 5px;
   object-fit: cover;
