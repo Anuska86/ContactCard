@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 START:
 
-create-vite my-react-app
+npm create vite@latest my-react-app --template react 
 cd contact-card
 npm install
 npm run dev
